@@ -80,3 +80,31 @@ header {
      -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.lang {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:flex-end;
+    margin-top:20px;
+    padding: 2px;
+    width: 100%;
+    min-height: 300px;
+    background-color: #ccc;
+    border-radius: 10px;
+    background: linear-gradient(to right, #d3d6da, 20%, #ffffff);
+}
+
+.inLang {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1%;
+    font-size: 1.1vw;
+    line-height: 50px;
+    color: #34495E;
+    background-color: #ccc;
+    border-radius: 10px;
+    background: linear-gradient(to right, #EBEDEF, 20%, #ffffff);
+}
+
