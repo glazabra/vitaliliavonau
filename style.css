@@ -33,6 +33,10 @@ header {
     background: linear-gradient(to right, #EBEDEF, 20%, #ffffff);
 }
 
+#overText, #overTextDev {
+    cursor: default;
+}
+
 .logo h2
 {
     font-size: 3vw;
