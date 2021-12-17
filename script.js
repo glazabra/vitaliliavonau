@@ -17,3 +17,4 @@ textDev.addEventListener("mouseout", function() {
 textDev.addEventListener("mouseover", function() {
     textDev.textContent = "Веб-разработчик";
 });
+
