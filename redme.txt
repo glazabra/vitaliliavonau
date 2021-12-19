@@ -1,8 +1,8 @@
-Color pallete for page: ()Basic color => #283747
+Color pallete for page: ()Basic color => #34495E
 
 #EBEDEF - white-gray light
 
 #AEB6BF - gray 
 
-#34495E - blue-gray dark
+#E34F1C - links
 
