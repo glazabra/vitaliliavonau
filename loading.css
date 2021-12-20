@@ -1,0 +1,111 @@
+.loadRss {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 18px;
+    width: 100px;
+  }
+  
+  .loadValueRss {
+    animation: loadRss 4s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 3px;
+    background: #AEB6BF;
+    height: 16px;
+    width: 0;
+    animation-delay: 1s;
+  }
+  
+  @keyframes loadRss {
+    0% { width: 0; }
+    100% { width: 6.7%; }
+  }
+
+  .loadHtmlBasic {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 18px;
+    width: 100px;
+  }
+  
+  .loadValueHtmlB {
+    animation: loadHtmlBasic 4s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 3px;
+    background: #AEB6BF;
+    height: 16px;
+    width: 0;
+    animation-delay: 1s;
+  }
+  
+  @keyframes loadHtmlBasic {
+    0% { width: 0; }
+    100% { width: 98%; }
+  }
+
+  .loadHtmlMedium {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 18px;
+    width: 100px;
+  }
+  
+  .loadValueHtmlM {
+    animation: loadHtmlMedium 4s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 3px;
+    background: #AEB6BF;
+    height: 16px;
+    width: 0;
+    animation-delay: 1s;
+  }
+  
+  @keyframes loadHtmlMedium {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+
+  .loadHtmlGuru {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 18px;
+    width: 100px;
+  }
+  
+  .loadValueHtmlG {
+    animation: loadHtmlGuru 4s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 3px;
+    background: #AEB6BF;
+    height: 16px;
+    width: 0;
+    animation-delay: 1s;
+  }
+  
+  @keyframes loadHtmlGuru {
+    0% { width: 0; }
+    100% { width: 55%; }
+  }

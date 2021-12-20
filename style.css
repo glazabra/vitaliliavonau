@@ -1,4 +1,4 @@
-
+@import url(loading.css);
 
 * {
     margin: 0;
@@ -57,7 +57,7 @@ header .logo {
 /* main */
 
 .mainLoading {
-    border: solid 10px #000;
+    box-shadow: rgba(204, 204, 204, 0.3) 0px 4px 8px;
     padding: 10px;
 }
 
@@ -76,58 +76,13 @@ header .logo {
     color: #34495E;
 }
 
+.htmlLoader {
+    border-color: #34495E;
+    box-shadow: rgba(204, 204, 204, 0.3) 0px 4px 8px;
+}
 
-
-.loadRss {
-    background: rgba(255,255,255,0.1);
-    justify-content: flex-start;
-    border-radius: 3px;
-    border: solid 1px #ccc;
-    align-items: center;
-    position: relative;
-    padding: 0;
-    display: flex;
-    height: 18px;
-    width: 100px;
-  }
-  
-  .loadValueRss {
-    animation: loadRss 3s normal forwards;
-    box-shadow: 0 10px 40px -10px #fff;
-    border-radius: 3px;
-    background: #AEB6BF;
-    height: 16px;
-    width: 0;
-  }
-  
-  @keyframes loadRss {
-    0% { width: 0; }
-    100% { width: 2%; }
-  }
-
-  .loadHtmlBasic {
-    background: rgba(255,255,255,0.1);
-    justify-content: flex-start;
-    border-radius: 3px;
-    border: solid 1px #ccc;
-    align-items: center;
-    position: relative;
-    padding: 0;
-    display: flex;
-    height: 18px;
-    width: 100px;
-  }
-  
-  .loadValueHtmlB {
-    animation: loadHtmlBasic 3s normal forwards;
-    box-shadow: 0 10px 40px -10px #fff;
-    border-radius: 3px;
-    background: #AEB6BF;
-    height: 16px;
-    width: 0;
-  }
-  
-  @keyframes loadHtmlBasic {
-    0% { width: 0; }
-    100% { width: 98%; }
-  }
+.spasePlase {
+    box-shadow: rgba(204, 204, 204, 0.3) 0px 4px 8px;
+    min-height: 10px;
+    margin-bottom: 20px;
+}
