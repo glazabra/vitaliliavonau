@@ -8,27 +8,28 @@
 }
 
 body {
-    margin: 2% 16% 2% 16%;
+    margin: 2% 20% 2% 20%;
 }
 
-/* a:link, a:active, a:visited {
+a:link, a:active, a:visited {
     text-decoration: none;
-    color: #544066;
+    color: #E34F1C;
     font-size: 1vw;
 }
 a:hover {
     text-decoration: underline;
     font-size: 1vw;
-} */
+}
 
 header {
     position: relative;
-    left: -60px;
     padding: 12px;
+    margin-bottom: 60px;
     min-height: 40px;
     border-radius: 5px;
-    background: linear-gradient(to right, #d3d6da, 20%, #ffffff);
+    box-shadow: rgba(117, 117, 117, 0.1) 0px 4px 8px;
 }
+
 
 header .logo {
     position: relative;
@@ -37,18 +38,96 @@ header .logo {
     color: #34495E;
 }
 
-.main {
+/* .main {
     position: relative;
     margin-top: 40px;
-    left: 40px;
     padding: 12px;
     min-height: 40px;
+    /* border: solid 1px #EBEDEF;
     border-radius: 5px;
-    background: linear-gradient(to right, #d3d6da, 20%, #ffffff);
-}
+    box-shadow: rgba(204, 204, 204, 0.1) 0px 4px 8px;
+} */
 
 .main ul li {
     list-style: none;
     line-height: 40px;
-    color:#e8ecf0
+    color:#34495E
+} */
+
+/* main */
+
+.mainLoading {
+    border: solid 10px #000;
+    padding: 10px;
 }
+
+.row{
+    display: flex;
+    margin: 0px -5px;
+}
+
+.loadingElement{
+    padding: 0px 5px;
+    flex: 0 1 25%;
+}
+
+.loadingContent{
+    padding: 10px;
+    color: #34495E;
+}
+
+
+
+.loadRss {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 18px;
+    width: 100px;
+  }
+  
+  .loadValueRss {
+    animation: loadRss 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 3px;
+    background: #AEB6BF;
+    height: 16px;
+    width: 0;
+  }
+  
+  @keyframes loadRss {
+    0% { width: 0; }
+    100% { width: 2%; }
+  }
+
+  .loadHtmlBasic {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 18px;
+    width: 100px;
+  }
+  
+  .loadValueHtmlB {
+    animation: loadHtmlBasic 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 3px;
+    background: #AEB6BF;
+    height: 16px;
+    width: 0;
+  }
+  
+  @keyframes loadHtmlBasic {
+    0% { width: 0; }
+    100% { width: 98%; }
+  }
