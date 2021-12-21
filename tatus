@@ -1,0 +1,82 @@
+[33mcommit 87a918c863627366ad08e951f62fb299b34bff7b[m[33m ([m[1;36mHEAD -> [m[1;32mnewbranch171221[m[33m, [m[1;31morigin/newbranch171221[m[33m)[m
+Author: Vitali Liavonau <leonoff.grodno@gmail.com>
+Date:   Mon Dec 20 21:54:53 2021 +0200
+
+    add new boxes html loader
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 7915ca5..1e29b4e 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -35,30 +35,79 @@[m
+                 </div>[m
+             </div>[m
+             <div class="loadingElement">[m
+[31m-                <div class="loadingContent">2%</div>[m
+[32m+[m[32m                <div class="loadingContent">6.7%</div>[m
+             </div>[m
+         </div>[m
+     </div>[m
+[31m-    <div class="mainLoading">[m
+[31m-        <div class="row">[m
+[31m-            <div class="loadingElement">[m
+[31m-                <div class="loadingContent">HTML: </div>[m
+[31m-            </div>[m
+[31m-            <div class="loadingElement">[m
+[31m-                <div class="loadingContent">Basic</div>[m
+[31m-            </div>[m
+[31m-            <div class="loadingElement">[m
+[31m-                <div class="loadingContent">Loading: </div>[m
+[32m+[m[32m    <div class="spasePlase"></div>[m
+[32m+[m[32m    <div class="htmlLoader">[m
+[32m+[m[32m        <div class="mainLoading">[m
+[32m+[m[32m            <div class="row">[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">HTML: </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">Basic</div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">Loading: </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">[m
+[32m+[m[32m                        <div class="loadHtmlBasic">[m
+[32m+[m[32m                            <div class="loadValueHtmlB"></div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">98%</div>[m
+[32m+[m[32m                </div>[m
+             </div>[m
+[31m-            <div class="loadingElement">[m
+[31m-                <div class="loadingContent">[m
+[31m-                    <div class="loadHtmlBasic">[m
+[31m-                        <div class="loadValueHtmlB"></div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="mainLoading">[m
+[32m+[m[32m            <div class="row">[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent"></div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">Medium: </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">Loading: </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">[m
+[32m+[m[32m                        <div class="loadHtmlMedium">[m
+[32m+[m[32m                            <div class="loadValueHtmlM"></div>[m
+[32m+[m[32m                        </div>[m
+                     </div>[m
+                 </div>[m
+[32m+[m[32m                <div class="loadingElement">[m
+[32m+[m[32m                    <div class="loadingContent">70%</div>[m
+[32m+[m[32m                </div>[m
+             </div>[m
+[31m-            <div class="loadingElement">[m
+[31m-      
